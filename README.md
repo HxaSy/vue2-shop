@@ -16,6 +16,22 @@ https://github.com/HxaSy/shop.git
 5. 用户登录与退出
 6. 用户注册
 
+
+### 部分截图
+#### 首页
+![p1.png](https://s2.loli.net/2022/06/19/hKMap4yuNXrICnQ.png)
+#### 商品详情页
+![p2.png](https://s2.loli.net/2022/06/19/xhZp4fdiYyw2nHz.png)
+#### 分类
+![p3.jpg](https://s2.loli.net/2022/06/19/pAvHy1qQgeT4ZN6.png)
+#### 个人主页
+![p4.png](https://s2.loli.net/2022/06/19/5wuHhC7FLTy8dXj.png)
+#### 登录页面
+![p5.PNG](https://s2.loli.net/2022/06/19/H2BQ31uezSOdErm.png)
+#### 购物车
+![p6.PNG](https://s2.loli.net/2022/06/19/pOuBRUFgtjmK5YH.png)
+
+
 ### 运行项目
 ```
 #先运行后端接口,上面有接口项目地址
