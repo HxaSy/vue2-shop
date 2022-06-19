@@ -70,7 +70,7 @@ export default {
       } else if (data.code === 2) {
         return Toast.fail(data.msg)
       } else {
-        console.log(data)
+        // console.log(data)
         this.$store.dispatch('saveTooken', data.token)
         this.$store.dispatch('saveUserinfo', data.message)
 

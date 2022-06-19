@@ -43,7 +43,7 @@ const mutations = {
     state.cartInfo.forEach(item => {
       if (item.product_id === num) {
         item.cart_num += 1
-        console.log(item)
+        // console.log(item)
         cartRequest.post('/update', { cart_num: item.cart_num, cart_id: item.cart_id })
       }
     })

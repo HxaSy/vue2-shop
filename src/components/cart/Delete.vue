@@ -26,7 +26,7 @@ export default {
       // console.log(this.$store.state.cart.cartInfo)
       const list = this.$store.state.cart.cartInfo
       if (list.every(item => item.cart_choose === 0 || item.cart_choose === false)) {
-        console.log(list)
+        // console.log(list)
         return Toast('请选择商品')
       }
       Dialog.confirm({

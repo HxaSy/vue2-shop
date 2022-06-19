@@ -174,8 +174,8 @@ export default {
     //   console.log(item)
       const { data } = await request.post('/add', { item })
 
-      console.log(data)
-      console.log(this.$store.state.cart.cartInfo)
+      //   console.log(data)
+      //   console.log(this.$store.state.cart.cartInfo)
       if (data.code === 1) {
         request.post('/updateDel', { del: 0, cart_id: data.data[0].cart_id })
         request.post('/update', { cart_num: 1, cart_id: data.data[0].cart_id })

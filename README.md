@@ -1,24 +1,37 @@
-# vue-shop
+### 项目简介
+一个移动端的Vue2商城项目,使用vue-cli构建项目,模仿了蘑菇街的页面,素材也是来源蘑菇街
 
-## Project setup
-```
-npm install
-```
+### 技术栈
+vue-router + vuex + axios + node.js + mysql + vant
 
-### Compiles and hot-reloads for development
+### 后台接口
+后台是用node(express)做的,只是做了一些简单的增删改查,文件链接
+https://github.com/HxaSy/shop.git
+
+### 已完成功能
+1. 首页轮播图及商品展示
+2. 商品分类列表
+3. 购物车的增删改查
+4. 个人主页
+5. 用户登录与退出
+6. 用户注册
+
+### 运行项目
 ```
+# 导入数据库,在后台文件中有提供,并在db文件夹的文件中修改成自己的账号和密码
+
+# 运行后台
+node app.js
+
+# 项目运行
 npm run serve
-```
 
-### Compiles and minifies for production
-```
+# 项目打包
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 说明
+这个项目是我刚学完vue2后自己写的,后端和前端都是我自己写的,没有很复杂的模块,使用到了vue2里的大部分
+知识。一开始找过很多项目,但还是不知道从什么地方开起做起,所以就自己从0开始搭建,遇到不会的或者是没有
+学到的就百度或者看了一下文档。作为刚刚入门前端的我,自己做的第一个项目,希望自己以后的技术越来越熟练,
+接触更多有趣的知识。各位帅哥美女,请留下你宝贵的意见吧(*^▽^*)

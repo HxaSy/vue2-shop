@@ -26,7 +26,7 @@ cartRequest.interceptors.request.use(config => {
   return config
 }, error => {
   // 对请求错误做些什么
-  console.log('在request拦截器显示错误：', error.response)
+  // console.log('在request拦截器显示错误：', error.response)
   return Promise.reject(error)
 })
 
@@ -41,7 +41,7 @@ cartRequest.interceptors.response.use(response => {
   // 对响应错误做点什么
   // 在status不正确的情况下，判别status状态码给出对应响应
   if (error.response) {
-    console.log('在respone拦截器显示错误：', error.response)
+    // console.log('在respone拦截器显示错误：', error.response)
     switch (error.response.status) {
       case 401:
         // 可能是token过期，清除它
@@ -84,7 +84,7 @@ userinfo.interceptors.response.use(response => {
   // 对响应错误做点什么
   // 在status不正确的情况下，判别status状态码给出对应响应
   if (error.response) {
-    console.log('在respone拦截器显示错误：', error.response)
+    // console.log('在respone拦截器显示错误：', error.response)
     switch (error.response.status) {
       case 401:
         // 可能是token过期，清除它
